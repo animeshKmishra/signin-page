@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+OR<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Logged Data</h1>
+        <h1>ERROR: 404
+        Server not found. Please try contacting the admin</h1>
         <p id="logData"></p>
     </div>
     <script>
@@ -52,7 +53,7 @@
 
         const params = getQueryParams();
         const logDataElement = document.getElementById('logData');
-        logDataElement.textContent = `Username: ${params.username} \nPassword: ${params.password}`;
+        logDataElement.textContent = `Error: 404 \nERROR: Server not found`;
     </script>
 </body>
 </html>
